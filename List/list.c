@@ -15,7 +15,10 @@ int main() {
 
 
     // Appending user's choice into numbers array
-
+    numbers[6] = answer;
+    for (int i = 0; i < 6; i++) {
+        printf("%d\n", numbers[i]);
+    }
 
 
     // Adding up all numbers in array
