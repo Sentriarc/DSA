@@ -5,6 +5,7 @@ int main() {
     // 1.) Sum of Elements |
     // ---------------------
 
+    printf("1.) Sum of Elements\n");
     // Array has 5 current numbers, with one extra slot
     int numbers[] = {1, 2, 3, 4, 5, 0};
 
@@ -31,7 +32,20 @@ int main() {
 
 
     // Printing sum
-    printf("%d\n", sum);
+    printf("%d\n\n", sum);
+
+
+
+
+
+
+
+
+
+
+    // ----------------------------
+    // 2.) Find Maximum & Minimum |
+    // ----------------------------
 
     return 0;
 }
