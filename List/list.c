@@ -16,18 +16,20 @@ int main() {
 
     // Appending user's choice into numbers array
     numbers[5] = answer;
-    for (int i = 0; i < 6; i++) {
-        printf("%d\n", numbers[i]);
-    }
+    // for (int i = 0; i < 6; i++) {
+    //     printf("%d\n", numbers[i]);
+    // }
 
 
     // Adding up all numbers in array
-
+    int sum = 0;
+    for (int i = 0; i < 6; i++) {
+        sum = sum + numbers[i];
+    }
 
 
     // Printing sum
-
-
+    printf("%d\n", sum);
 
     return 0;
 }
