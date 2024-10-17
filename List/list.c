@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    // 1.) Sum of Elements
+    // ---------------------
+    // 1.) Sum of Elements |
+    // ---------------------
 
     // Array has 5 current numbers, with one extra slot
     int numbers[] = {1, 2, 3, 4, 5, 0};
