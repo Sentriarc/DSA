@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-struct LinkedList {
-    int number;
-    struct LinkedList *prev;
-    struct LinkedList *next;
-}
-
 int main() {
-    
+    int num = 100;
+    int *ptr = &num;
+
+    printf("%d\n", *ptr);
 }
