@@ -7,5 +7,5 @@ struct LinkedList {
 }
 
 int main() {
-    int filler;
-};
+    
+}
