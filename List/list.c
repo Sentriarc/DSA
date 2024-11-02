@@ -46,6 +46,8 @@ int main() {
     // ----------------------------
     // 2.) Find Maximum & Minimum |
     // ----------------------------
+    printf("2.) Find Maximum & Minimum\n");
+
 
     return 0;
 }
