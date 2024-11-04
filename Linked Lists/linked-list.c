@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-int main() {
-    int num = 100;
-    int *ptr = &num;
+void Increment(int *a) {
+    *a = (*a) + 1;
+}
 
-    printf("%d\n", *ptr);
+int main() {
+    int num = 5;
+    Increment(&num);
+    printf("After incrementing, the new number is %d\n", num);
 }
