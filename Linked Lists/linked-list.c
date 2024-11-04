@@ -1,11 +1,23 @@
 #include <stdio.h>
 
-void Increment(int *a) {
-    *a = (*a) + 1;
+// Welcome to our facility, where we stack boxes for you! You also have the option to use some of ours!
+
+void Stacking(int *box1, int *box2) {
+    (*box1) + (*box2);
 }
 
 int main() {
-    int num = 5;
-    Increment(&num);
-    printf("After incrementing, the new number is %d\n", num);
+    int userChoice1;
+    int userChoice2;
+
+    printf("How many boxes will you be bringing in today?\n");
+    scanf("%d", &userChoice1);
+
+    printf("How many boxes will you need from our facility today?\n");
+    scanf("%d", &userChoice2);
+
+    int allBoxes = Stacking(int userChoice1, int userChoice2);
+    printf("Here's how many boxes you will be stacking: %d", allBoxes);
+
+    return 0;
 }
