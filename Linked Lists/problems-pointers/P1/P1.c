@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Switch(int *num1, int *num2);
+int Switch(int* num1, int* num2);
 
 int main() {
     printf("1.) Swapping Two Numbers With Pointers\n");
@@ -21,7 +21,7 @@ int main() {
     return 0;
 }
 
-int Switch(int *num1, int *num2) {
+int Switch(int* num1, int* num2) {
     int choice1;
     int choice2;
 
