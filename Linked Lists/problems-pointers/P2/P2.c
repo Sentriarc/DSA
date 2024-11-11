@@ -21,11 +21,8 @@ int main() {
 //     int* ptr = scanf("%d\n", &value);
 // }
 
-int Modifier(int* arr[]) {
-    int input;
-
-    printf("Type a number:" );
-    scanf("%d\n", &input);
-
-    arr[] = 
+int Modifier(int* arr, int size, int input) {
+    for (int i = 0; i < size; i++) {
+        arr[i] = input;
+    }
 }
