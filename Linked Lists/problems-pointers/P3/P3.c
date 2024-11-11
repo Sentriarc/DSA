@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
+// THIS FUNCTION NEEDS TO BE CHANGED (size does not belong here)
 void stringChanger(int* arr, int size, int targetValue) {
     for (int i = 0; i < size; i++) {
         *(arr + i) = targetValue;
