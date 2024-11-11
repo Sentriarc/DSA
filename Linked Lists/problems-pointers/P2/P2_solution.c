@@ -3,7 +3,7 @@
 // Function to modify each element in the array by adding targetValue
 void modifyArray(int *arr, int size, int targetValue) {
     for (int i = 0; i < size; i++) {
-        *(arr + i) += targetValue;  // Adds targetValue to each element
+        *(arr + i) += targetValue;  // Adds targetValue to each element || MY NOTE: "*(arr + i)" points to the targetValue initilized in the main() function
     }
 }
 
