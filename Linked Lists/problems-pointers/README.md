@@ -48,3 +48,43 @@ Key Concepts:
 
     Pointer arithmetic with characters.
     Manipulating strings via pointers.
+
+
+
+4. Find the Largest Element in an Array Using Pointers
+
+Problem Description:
+
+Write a C program to find the largest element in an array using a function and pointers. The program should:
+
+    Ask the user to input the size of the array and its elements.
+    Create a function findLargest that takes a pointer to the array and its size as arguments, then returns the largest element.
+    Display the largest element in the array.
+
+Key Concepts:
+
+    Passing arrays as pointers to functions.
+    Traversing an array using pointer arithmetic.
+
+Beginner Practice Problem: Find the Largest Element in an Array Using Pointers
+Problem Description:
+
+Write a C program to find the largest element in an array using a function and pointers. The program should:
+
+    Ask the user to input the size of the array and its elements.
+    Create a function findLargest that takes a pointer to the array and its size as arguments, then returns the largest element.
+    Display the largest element in the array.
+
+Key Concepts:
+
+    Passing arrays as pointers to functions.
+    Traversing an array using pointer arithmetic.
+
+# Example Input and Output:
+Input:
+    Enter the number of elements in the array: 5
+    Enter the elements: 12 45 7 34 89
+
+Output:
+    The largest element in the array is: 89
+
