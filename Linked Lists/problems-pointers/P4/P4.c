@@ -24,6 +24,12 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
     printf("size of current array: %d\n", size); // This is currently incorrect syntax
     
+
+    /* Plan for next time: 
+    - find a way to display the array (not the size of it) 
+    - based on the values within the array, link the pointer to the set of numbers 
+    - write a function that finds the largest number within the array
+    */ 
 }
 
 int largeNumberFinder(int* largeNumber) {
