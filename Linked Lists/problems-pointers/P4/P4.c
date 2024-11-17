@@ -6,7 +6,7 @@ int largeNumberFinder(int* largeNumber);
 int main() {
     int arraySizeInput;
     int arrayValue;
-    int arr[arraySizeInput];
+    int* arr[arraySizeInput]; // The pointer here may be causing issues for the stuff below
 
     printf("size of array: ");
     scanf("%d", &arraySizeInput);
@@ -21,6 +21,8 @@ int main() {
         scanf("%d", &arrayValue);
     }
 
+    int size = sizeof(arr) / sizeof(arr[0]);
+    printf("size of current array: %d\n", size); // This is currently incorrect syntax
     
 }
 
