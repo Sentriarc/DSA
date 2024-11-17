@@ -2,13 +2,13 @@
 #include <ctype.h>
 
 int largeNumberFinder(int* largeNumber) {
-    largeNumber = arrayValue;
+    // largeNumber = arrayValue;
 }
 
 int main() {
     int arraySizeInput;
     int arrayValue;
-    int arr[100];
+    int* arr[100];
 
     printf("size of array: ");
     scanf("%d", &arraySizeInput);
